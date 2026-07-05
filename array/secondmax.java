@@ -41,7 +41,7 @@ public class secondmax {
                 s_max=max;
                 max=arr[i];
             }
-            else if(arr[i]>s_max)
+            else if(arr[i] > s_max && arr[i] !=max)
             {
                 s_max=arr[i];
             }
