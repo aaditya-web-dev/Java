@@ -30,7 +30,7 @@ public class movezero {
     static void move(int [] arr,int n)
     {
         int i=0;
-        for(int j=1;j<n;j++)
+        for(int j=0;j<n;j++)
         {
             if(arr[j]!=0)
             {
